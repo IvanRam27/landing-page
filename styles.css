@@ -11,20 +11,63 @@ body {
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 150px;
-    
-    
+
 }
+
 .header-top {
     display: flex;
     justify-content: space-between;
     padding: 20px; 
+    padding-bottom: 100px;
 }
+
 
 .header-top-logo {
     font-size: 24px;
     font-weight: bolder;
 }
 
+.header-content {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.header-content-left {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-left-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-left-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-left-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    align-self: flex-start;
+    
+}
+
+.header-content-right {
+    background-color: gray;
+    padding: 150px 220px;
+    white-space: nowrap;
+}
 
 
 
