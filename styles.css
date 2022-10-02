@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
  /* header start */
@@ -193,6 +194,14 @@ body {
 }
 
  /*section3 end*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 44px;
+}
 
 ul {
     list-style: none;
