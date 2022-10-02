@@ -3,6 +3,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ /* header start */
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -71,13 +73,17 @@ body {
     white-space: nowrap;
 }
 
+/*header end*/
+
+/*section1 start */
+
 .section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .section1-title {
@@ -114,7 +120,36 @@ body {
     align-self: center;
     font-size: 18px;
 }
+ /*section1 end*/
 
+ /*section2 start*/
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding: 100px 540px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.quote-footer {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+ /*section2 end */
 
 ul {
     list-style: none;
