@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+    
 }
 
  /* header start */
@@ -11,16 +11,16 @@ body {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 20px; 
+    padding: 20px 0px; 
     padding-bottom: 100px;
     
 }
@@ -33,9 +33,7 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    
+    justify-content: space-between;
 }
 
 .header-content-left {
@@ -70,8 +68,9 @@ body {
 
 .header-content-right {
     background-color: gray;
-    padding: 150px 220px;
+    padding: 90px 100px;
     white-space: nowrap;
+    align-self: center;
 }
 
 /*header end*/
@@ -85,6 +84,8 @@ body {
     gap: 50px;
     margin-top: 50px;
     margin-bottom: 150px;
+    margin-left: 300px;  /*add left and right margins to be compatible with firefox*/
+    margin-right: 300px;
 }
 
 .section1-title {
@@ -113,6 +114,7 @@ body {
     border-radius: 10px;
     width: 35px;
     height: 35px;
+    align-self: center;
 }
 
 .content-text {
@@ -131,7 +133,7 @@ body {
     align-items: center;
     gap: 10px;
     background-color: #E5E7EB;
-    padding: 100px 540px; 
+    padding: 100px 300px; 
  
 }
 
@@ -142,6 +144,7 @@ body {
     font-weight: light;
     color: #1F2937;
     text-align: justify;
+    
 }
 
 .quote-footer {
@@ -149,6 +152,7 @@ body {
     font-weight: bolder;
     color: #1F2937;
     align-self: flex-end;
+    
 }
 
  /*section2 end */
@@ -158,16 +162,20 @@ body {
  .section3 {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     background-color: #3882F6;
     border-radius: 5px;
     padding: 60px 100px;
     margin: 130px 400px;
+    
  }
 
 .section3-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+
 }
 
 .section3-title {
@@ -186,8 +194,8 @@ body {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
-    height: 40px;
-    width: 150px;
+    min-height: 40px;
+    min-width: 150px;
     border: 2px solid white;
     border-radius: 10px;
     align-self: center;
